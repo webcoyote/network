@@ -1,0 +1,4 @@
+cat << EOF | sudo bash
+LIBGL_ALWAYS_INDIRECT=1 nice ./network &
+exit
+EOF

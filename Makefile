@@ -13,7 +13,3 @@ all:
 
 yum:
 	sudo yum install -y libpcap libpcap-devel freeglut freeglut-devel
-
-run:
-	echo "LIBGL_ALWAYS_INDIRECT=1 ./network" | sudo bash
-
