@@ -1,4 +1,4 @@
 cat << EOF | sudo bash
-LIBGL_ALWAYS_INDIRECT=1 nice ./network &
+LIBGL_ALWAYS_INDIRECT=1 nice -n 15 ./network &
 exit
 EOF
